@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<conio.h>
 #define MAX 10
 void create();
 void insert();
@@ -44,7 +45,7 @@ printf("\n Do u want to continue:::");
 scanf("\n%c", &g);
 }
 while(g=='y'||g=='Y');
-
+getch();
 }
 void create()
 {
