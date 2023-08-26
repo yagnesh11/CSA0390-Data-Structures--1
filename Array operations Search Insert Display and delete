@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #define MAX 10
 void create();
 void insert();
@@ -45,7 +44,7 @@ printf("\n Do u want to continue:::");
 scanf("\n%c", &g);
 }
 while(g=='y'||g=='Y');
-getch();
+
 }
 void create()
 {
@@ -67,7 +66,7 @@ printf("\n Invalid Location::");
 }
 else
 {
-for(i=pos+1;i<n;i++)
+for(i=pos;i<n;i++)
 {
 b[i-1]=b[i];
 }
