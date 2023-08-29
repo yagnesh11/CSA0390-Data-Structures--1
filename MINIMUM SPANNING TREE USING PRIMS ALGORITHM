@@ -24,7 +24,7 @@ graph[i][parent[i]]);
 
 void primMST(int graph[V][V])
 {
-T
+
 int parent[V];
 int key[V];
 
