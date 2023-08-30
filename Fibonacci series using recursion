@@ -9,7 +9,7 @@ void my_fibonacci(int n)
 		n1=n2;
 		n2=n3;
 		printf("%d",n3);
-		my_fibonacci(n-1);
+		my_fibonacci(n-2);
 	}
 }
 int main()
@@ -19,6 +19,6 @@ int main()
 	scanf("%d",&n);
 	printf("fibonacci series: \n");
 	printf("%d %d",0,1);
-	my_fibonacci(n-1);
+	my_fibonacci(n-2);
 	return 0;
 }
